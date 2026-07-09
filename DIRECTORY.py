@@ -30,7 +30,7 @@ h1{color:#003366}
 
 
 st.title("Boston House Price Prediction Powered by AI")
-st.write("Here we are doing prediction of ouse prices using Machine Learning")
+st.write("Here we are doing prediction of house prices using Machine Learning")
 
 model= pickle.load(open('model.pkl','rb'))
 columns= pickle.load(open('columns.pkl','rb'))
